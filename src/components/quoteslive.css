@@ -1,0 +1,157 @@
+.quoteslive{
+  position: fixed;
+    display: flex;
+    z-index: 2;
+    background-color: black;
+  
+   
+    color: white;
+
+  /* for chrome and safari*/
+  -webkit-animation-duration: 40s;
+  -webkit-animation-name: slidein;
+
+  /*for firefox*/
+  -moz-animation-duration: infinite;
+  -moz-animation-name: slidein;
+
+    /* for opera*/
+  -o-animation-duration: 30s;
+  -o-animation-name: slidein;
+
+    /* Standard syntax*/
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-name: slidein;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: none;
+  animation-direction: normal;
+}
+
+@-webkit-keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 100%;
+  }
+
+  to {
+      margin-left: 0%;
+      width: 100%;
+  }
+}
+
+@-moz-keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 300%;
+  }
+
+  to {
+      margin-left: 0%;
+      width: 100%;
+  }
+}
+@-o-keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 300%;
+  }
+
+  to {
+      margin-left: 0%;
+      width: 100%;
+  }
+}
+@keyframes slidein {
+  from {
+      margin-left: 0%;
+      width: 300%;
+  }
+
+  to {
+      margin-left: -20%;
+      width: 300%;
+  }
+}
+   
+
+.quoteslive h5 {
+    display: flex;
+    font-size: 0.7em;
+    padding: 0.5rem;
+    z-index: 2;
+    
+    
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    
+    
+   
+    
+  }
+    /* @keyframes run {
+        /* 0%  {color: red;}
+        25% {color: yellow;}
+        50% {color: green;}
+        75% {color: blue;}
+        100% {color: red;} */
+        
+     
+.quoteslive h5 p {
+
+    font-size: 1em;
+    margin-left: 3%;
+    z-index: 2;
+    
+}
+.container_quotes {
+position: fixed;
+    background-color: rgb(0, 0, 0);
+    padding: 0,5rem;
+    display: flex;
+    justify-content: space-between;
+   
+     
+}
+.textquotes {
+    font-size: 1px;
+    
+   
+}
+/* .quotecontainer {
+    
+  position: relative;
+  bottom: 150px;
+ 
+} */
+.stocks_container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    
+    box-shadow: 2 0px 1px 0 rgba(0,0,0,0.5);
+    position: relative;
+    right: 195px;
+  
+    
+}
+.stocks_border  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+  padding: 6px 0 0px 0px;
+  box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.3);
+  ;
+  
+}
+.title_quote {
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}

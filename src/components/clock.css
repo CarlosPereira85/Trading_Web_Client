@@ -1,0 +1,32 @@
+.clock {
+    
+    
+    padding-right: 5px;
+    background-color: #ffcc33;
+   
+    ;
+}
+.div_isolado{
+   
+    background-color: #e0dbdbd9;
+}
+.clock_data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px ;
+    justify-content: space-between;
+    
+    font-size: 0.9rem;
+    color: #000000;
+    font-weight: bold;
+    padding: 5px;
+   
+    bottom: 5px;
+    ;
+}
+.clock_data span {
+    font-size: 1rem;
+    
+}

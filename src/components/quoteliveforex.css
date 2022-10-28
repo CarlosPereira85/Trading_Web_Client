@@ -1,0 +1,107 @@
+.container_quotes_forex {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+   gap: 5px;
+    padding: 5px ;
+    margin-top: 0px;
+    width: 50vw;
+    
+   
+ 
+}
+.backhighlow{
+    
+    font-size: 1rem;
+   position: relative;
+   bottom: 40px;
+    
+
+    
+}
+.buysell{
+    
+    font-size: 1.5rem;
+    float: right;
+    ;
+
+    
+
+    
+}
+.buysell bottom {
+margin: 6px;
+padding: 8px;
+cursor: pointer;
+
+
+
+
+}
+.buy{
+    color: white;	
+    background-color: rgb(20, 126, 20);
+    text-shadow: 2px 2px 2px #000000;
+    box-shadow: -2px 11px 8px -3px rgba(20,126,20,0.41)
+    ;
+}
+.sell{
+    color: white;
+    background-color: rgb(240, 30, 30);
+    text-shadow: 2px 2px 2px #000000;
+    box-shadow: -2px 11px 8px -3px rgba(240,30,30,0.41)
+    
+}
+             
+.bidaskback {
+    
+    position: relative;
+    bottom: 20px;
+    
+    font-size: 0.8rem;
+    
+}
+
+
+/* .line1 {
+    border-bottom: 2px solid red;
+       width: 20%;
+       transform: rotate(-45deg);
+      margin-top: 0px;
+      margin-left: -16px;
+      line-height: -6px;
+       
+} */
+.informationfx {
+    margin-left: 2.5rem;
+}
+.quotesforex{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 15rem;
+   margin-top: 3%;
+   height: 45%;
+    
+}
+.quotesforex1{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 15rem;
+   margin-top: 3%;
+   height: 70%;
+    
+}
+    
+    .tocurr{
+        position: relative;
+        top: -23px;
+        left: 38px;
+        
+    }
+    
+    .movimentodia {
+        position: relative;
+       bottom: 77px;
+        left: 6rem;
+    }
+
